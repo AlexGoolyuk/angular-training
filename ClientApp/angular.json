@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "angular_training"
+  "defaultProject": "angular_training",
+  "cli": {
+    "analytics": false
+  }
 }
