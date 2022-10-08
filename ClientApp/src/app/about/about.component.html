@@ -6,4 +6,9 @@
 <p>Hi {{name}}</p>
 <input type="text" [(ngModel)]="name" />
 <br><br>
-<input type="text" [(ngModel)]="name" />
+<input type="text" [(ngModel)]="surname" />
+
+<app-child
+    [name]="name"
+    [surname]="surname">
+</app-child>

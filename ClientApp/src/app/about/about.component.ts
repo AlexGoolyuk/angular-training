@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   count: number = 0;
-  name: string = 'Tom';
+  name: string = '';
+  surname: string ='';
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 
   increase(): void {
     this.count++;
